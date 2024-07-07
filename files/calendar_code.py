@@ -1,10 +1,11 @@
-
 import calendar
+
 
 def print_calendar_months():
     # cal = calendar.Calendar(calendar.SUNDAY)
     for c in calendar.month_name:
         print(c)
+
 
 def print_calendar_days():
     for c in calendar.day_name:
